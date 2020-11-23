@@ -1,16 +1,19 @@
+//WAP  TO CREATE A FUNCTION FOR SEARCHING AN ELE BY LINEAR SEARCH
+//SPACE COMP- O(1),TIMECOMPL- O(N) 
+//DATASTRUCTURES
 #include<iostream>
 using namespace std;
 void linearSearch(int a[],int x,int n)
 { int i=0;
 	printf("enter ele to search");
 	cin>>x;
-	bool flag=true;
+	bool flag=false;
 	for(i=0;i<n;i++)
 	{ 
 		if(a[i]==x)
 		 {
-		cout<<x<<" is present at %d"<<i;
-		flag=false;
+		cout<<x<<" is present at index"<<i<<"\n";
+		flag=true;
 	}
 	
 	}
