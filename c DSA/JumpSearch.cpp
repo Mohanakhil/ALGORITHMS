@@ -1,3 +1,5 @@
+//jump search algorithm with O(sqrt(n)) TIMECOMPLEXITY AND O(1) SPACE COMPLEXITY
+//ASSUMING INPUT IN ASCENDING ORDER
 //WAP TO USE JUMP SEARCH ALGO FOR SEARCHING AN ELEMENT X IN ARRAY
 #include<stdio.h>
 #include<math.h>

@@ -1,3 +1,5 @@
+//jump search algorithm with O(sqrt(n)) TIMECOMPLEXITY AND O(1) SPACE COMPLEXITY
+//ASSUMING INPUT IN ASCENDING ORDER
 #include<iostream>
 #include<math.h>
 using namespace std;
